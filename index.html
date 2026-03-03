@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="images/forest-icon-png-29.png"type="image/x-icon">
+
+    <!-- Google Font Support Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+
     <title>FORESTGEAR</title>
 </head>
 <body>
     <main>
-        <section>
+        <section class="hero">
             <header>
+                <a href="index.html"><img class="logoimage" src="images/logo.png" alt="ForestGear Homepage" title="ForestGear Homepage"></a>
                 <nav id="nav_menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -22,7 +32,7 @@
                 </nav>    
             </header>
             
-            <div>
+            <div class="title-text">
                 <p>Get all the &nbsp;&nbsp; ForestGear you need here at</p>
                 <h1 class="allcaps">Forest<wbr><span class="thin-text">Gear</span></h1>
                 <p>You won't regret it</p>
@@ -55,13 +65,19 @@
         <div class="cta">
             <div class="cta-contents">
                 <p>Click here to join our mailing list</p>
+                <a href="#" class="btn">Join Here</a>
             </div>
         </div>
 
+        <!-- Return to top button -->
+        <button id="cornerbtn" class="return-to-top" title="Return to top" onclick="topFunction()"><img src="images/back-to-top-icon-png-7.jpg" alt="Return to top"></button>
+
         <footer>
-            <p>&copy; [Your Name] Productions</p>
+            <p>&copy; <span id="copyrightyear"></span> Lucci Productions</p>
         </footer>
 
     </main>
 </body>
 </html>
+
+<script src="js/scripts.js"></script>

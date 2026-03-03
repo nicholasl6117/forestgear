@@ -14,3 +14,7 @@ function topFunction() {
 document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 }
+
+window.onload = function () {
+    document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
+}
