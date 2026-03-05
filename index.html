@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="images/forest-icon-png-29.png"type="image/x-icon">
+    <link rel="shortcut icon" href="images/forest-icon-png-29.png" type="image/x-icon">
 
     <!-- Google Font Support Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({ prependTo: "#mobilemenu" });
+        });
+    </script>
+
+    <link rel="stylesheet" href="styles/slicknav.css">
 
     <link rel="stylesheet" href="styles/main.css">
 
     <title>FORESTGEAR</title>
 </head>
+
 <body>
     <main>
         <section class="hero">
             <header>
-                <a href="index.html"><img class="logoimage" src="images/logo.png" alt="ForestGear Homepage" title="ForestGear Homepage"></a>
+                <a href="index.html"><img class="logoimage" src="images/logo.png" alt="ForestGear Homepage"
+                        title="ForestGear Homepage"></a>
+                <nav id="mobilemenu"></nav>
                 <nav id="nav_menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -29,9 +44,9 @@
                         <li><a href="#">About</a></li>
                         <li><a class="login" href="#">Login</a></li>
                     </ul>
-                </nav>    
+                </nav>
             </header>
-            
+
             <div class="title-text">
                 <p>Get all the &nbsp;&nbsp; ForestGear you need here at</p>
                 <h1 class="allcaps">Forest<wbr><span class="thin-text">Gear</span></h1>
@@ -42,23 +57,28 @@
         <div class="sales-points">
             <div class="sales-point">
                 <h3>Reliability</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic facere ipsam repudiandae est voluptates magnam?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic facere ipsam repudiandae est voluptates
+                    magnam?</p>
             </div>
             <div class="sales-point">
                 <h3>Durability</h3>
-                <p>Iste aspernatur quod illum repellat quisquam, facere quia perspiciatis in ipsum nam ut? Vero, fugiat!</p>
+                <p>Iste aspernatur quod illum repellat quisquam, facere quia perspiciatis in ipsum nam ut? Vero, fugiat!
+                </p>
             </div>
             <div class="sales-point">
                 <h3>Unparalleled Customer Service</h3>
-                <p>Praesentium voluptatibus ipsum pariatur ipsam aperiam explicabo repellat doloribus ducimus quo, distinctio ea voluptate placeat.</p>
+                <p>Praesentium voluptatibus ipsum pariatur ipsam aperiam explicabo repellat doloribus ducimus quo,
+                    distinctio ea voluptate placeat.</p>
             </div>
             <div class="sales-point">
                 <h3>Unbeatable Prices</h3>
-                <p>Doloribus facilis, tempora magni sequi eaque totam natus necessitatibus voluptatum quidem optio expedita nulla error?</p>
+                <p>Doloribus facilis, tempora magni sequi eaque totam natus necessitatibus voluptatum quidem optio
+                    expedita nulla error?</p>
             </div>
             <div class="sales-point">
                 <h3>Extendable Warranty</h3>
-                <p>Nostrum minus nobis maxime omnis harum odio, repellat, corporis nesciunt vel cum praesentium quae animi.</p>
+                <p>Nostrum minus nobis maxime omnis harum odio, repellat, corporis nesciunt vel cum praesentium quae
+                    animi.</p>
             </div>
         </div>
 
@@ -70,7 +90,8 @@
         </div>
 
         <!-- Return to top button -->
-        <button id="cornerbtn" class="return-to-top" title="Return to top" onclick="topFunction()"><img src="images/back-to-top-icon-png-7.jpg" alt="Return to top"></button>
+        <button id="cornerbtn" class="return-to-top" title="Return to top" onclick="topFunction()"><img
+                src="images/back-to-top-icon-png-7.jpg" alt="Return to top"></button>
 
         <footer>
             <p>&copy; <span id="copyrightyear"></span> Lucci Productions</p>
@@ -78,6 +99,7 @@
 
     </main>
 </body>
+
 </html>
 
 <script src="js/scripts.js"></script>
